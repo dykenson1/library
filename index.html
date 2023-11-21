@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my Library</title>
+    <link rel="shortcut icon" href="icone/bookmark-box-multiple-outline.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script type="module" src="js/script.js"></script>
+</head>
+<body>
+    <!-- Creation d'une appli pour anregestirer son livre -->
+    <main>
+        <header>
+            <h2 class="titre">My library</h2>
+            <button class="add-new-book"><img src="icone/add.png" alt="">New Book</button>
+        </header>
+        <h1>Listes des livres</h1>
+        <!-- <section class="details">  
+        </section> -->
+
+        <!-- formulaire  -->
+        <section id="formulaire">
+            <form action="" method="post">
+                <h3>Ajouter un livre</h3>
+                <input  type="text" placeholder="non du livre" class="name-book" id="input" required>
+                <input type="text" placeholder="Auteur du livre" class="name-autor" id="input" required>
+                <input type="number" placeholder="pages" class="nomber-page" id="input" required>
+                <p>
+                    <label for="checkbox">Tu l'as lu ? : Oui</label><input type="checkbox" name="checkbox" class="checkbox">
+                </p>
+                <button class="add" type="submit">Add</button>
+
+            </form>
+        </section>
+    </main>
+</body>
+</html>
