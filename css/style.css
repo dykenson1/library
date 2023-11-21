@@ -117,6 +117,18 @@ form > button{
         }
 }
 
+.close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 0;
+    color: aliceblue;
+    background: #000;
+    border-radius: 50%;
+    font-size: 20px;
+    border: none;
+}
+
 .details{
     display: flex;
     flex-wrap: wrap;
@@ -247,6 +259,7 @@ label{
         align-items: center;}
     .div0{
         width: 90%;
+        margin-left: 2px;
     }
     .h3{
         text-align: justify;

@@ -6,6 +6,7 @@ const addBook = document.querySelector(".add")
 const section = document.createElement("section")
 const formulaire = document.querySelector("#formulaire")
 const body = document.querySelector("body")
+const closeForm = document.querySelector(".close")
 
 
 // Les variable du formulaire
@@ -119,6 +120,9 @@ function display(){
 
 newBook.addEventListener('click',()=>{
     formulaire.style.display = 'flex'
+    closeForm.addEventListener("click",()=>{
+        formulaire.style.display = 'none'
+    })
 })
 
 addBook.addEventListener('click',(event)=>{
@@ -139,5 +143,7 @@ addBook.addEventListener('click',(event)=>{
     
     event.preventDefault()
 })
+
+
 
 
