@@ -151,7 +151,7 @@ form > button{
     font-style: italic;
 }
 .para-auteur::before{
-    content: 'ecrivain: ';
+    content: 'Ecrivain : ';
     color: var(--color);
     font-size: 20px;
     font-style: normal;
@@ -165,7 +165,7 @@ form > button{
     margin-right: 15px;
 }
 .para-Pages::before{
-    content: 'Nombre de pages: ';
+    content: 'Nombre de pages : ';
     font-weight: bold;
     font-style: normal;
     color: var(--color);
@@ -174,11 +174,11 @@ form > button{
 .para-lus{
     margin-left: 15px;
     font-size: 19px;
-    color: rgb(6, 169, 1);
+    color: rgb(8, 123, 4);
     font-style: italic;
 }
 .para-lus::before{
-    content: 'Lus : ';
+    content: 'Tu l\'as lu ? : ';
     color: var(--color);
     font-style: normal;
     font-size: 20px;
@@ -258,6 +258,7 @@ label{
         justify-content: center;
         position: absolute;
         left: 15%;
+        position: fixed;
          
      
      }
