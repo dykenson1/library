@@ -287,6 +287,20 @@ label{
         box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 18px;
     
     }
+    .close{
+        position: absolute;
+        top: 0;
+        right: 0;
+        margin-right: 0;
+        color: aliceblue;
+        background: #202020;
+        border-radius: 50%;
+        font-size: 15px;
+        width: 25px;
+        height: 25px;
+        border: none;
+        text-align: center;
+    }
 }
 
 
