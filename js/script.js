@@ -19,11 +19,13 @@ const myLibrary = []
 console.log(myLibrary)
 
 // Constructor pour les livres
-function Book(book,autor,page,read){
+class Book{
+    constructor(book,autor,page,read){
     this.book = book
     this.autor = autor
     this.page = page
     this.read = read
+}
 }
 
 // fucntion pour ajouter un livre dans le tableau
